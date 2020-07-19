@@ -4,6 +4,7 @@ namespace App\Repository;
 
 use App\Entity\Province;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\DBAL\Types\Types;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
@@ -19,32 +20,26 @@ class ProvinceRepository extends ServiceEntityRepository
         parent::__construct($registry, Province::class);
     }
 
-    // /**
-    //  * @return Province[] Returns an array of Province objects
-    //  */
-    /*
-    public function findByExampleField($value)
+    /**
+     * @param string|null $province
+     *
+     * @return array|int|string
+     */
+    public function findForApi(?string $province = null)
     {
-        return $this->createQueryBuilder('p')
-            ->andWhere('p.exampleField = :val')
-            ->setParameter('val', $value)
-            ->orderBy('p.id', 'ASC')
-            ->setMaxResults(10)
-            ->getQuery()
-            ->getResult()
-        ;
-    }
-    */
+        $queryBuilder = $this
+            ->createQueryBuilder('province')
+            ->select('province, commune')
+            ->innerJoin('province.communes', 'commune');
 
-    /*
-    public function findOneBySomeField($value): ?Province
-    {
-        return $this->createQueryBuilder('p')
-            ->andWhere('p.exampleField = :val')
-            ->setParameter('val', $value)
+        if ($province) {
+            $queryBuilder
+                ->where('province.name = :province')
+                ->setParameter('province', $province, Types::STRING);
+        }
+
+        return $queryBuilder
             ->getQuery()
-            ->getOneOrNullResult()
-        ;
+            ->getArrayResult();
     }
-    */
 }

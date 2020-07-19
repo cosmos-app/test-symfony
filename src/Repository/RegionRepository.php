@@ -4,6 +4,7 @@ namespace App\Repository;
 
 use App\Entity\Region;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\DBAL\Types\Types;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
@@ -19,32 +20,27 @@ class RegionRepository extends ServiceEntityRepository
         parent::__construct($registry, Region::class);
     }
 
-    // /**
-    //  * @return Region[] Returns an array of Region objects
-    //  */
-    /*
-    public function findByExampleField($value)
+    /**
+     * @param string|null $region
+     *
+     * @return array|int|string
+     */
+    public function findForApi(?string $region = null)
     {
-        return $this->createQueryBuilder('r')
-            ->andWhere('r.exampleField = :val')
-            ->setParameter('val', $value)
-            ->orderBy('r.id', 'ASC')
-            ->setMaxResults(10)
-            ->getQuery()
-            ->getResult()
-        ;
-    }
-    */
+        $queryBuilder = $this
+            ->createQueryBuilder('region')
+            ->select('region, province, commune')
+            ->innerJoin('region.provinces', 'province')
+            ->innerJoin('province.communes', 'commune');
 
-    /*
-    public function findOneBySomeField($value): ?Region
-    {
-        return $this->createQueryBuilder('r')
-            ->andWhere('r.exampleField = :val')
-            ->setParameter('val', $value)
+        if ($region) {
+            $queryBuilder
+                ->where('region.name = :region')
+                ->setParameter('region', $region, Types::STRING);
+        }
+
+        return $queryBuilder
             ->getQuery()
-            ->getOneOrNullResult()
-        ;
+            ->getArrayResult();
     }
-    */
 }
