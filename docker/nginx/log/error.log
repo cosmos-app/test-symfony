@@ -1,0 +1,1272 @@
+2020/07/19 03:01:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:18
+2020/07/19 03:03:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:18
+2020/07/19 03:04:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:18
+2020/07/19 03:10:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:18
+2020/07/19 03:10:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:18
+2020/07/19 03:12:13 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/app/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsInde
+2020/07/19 03:12:13 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost/")" at /var/www/app/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListen
+2020/07/19 03:12:13 [error] 6#6: *2 FastCGI sent in stderr: "Kernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost", referrer: "http://localhost/"
+2020/07/19 03:12:20 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /comunnes"" at /var/www/app/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onController
+2020/07/19 03:12:20 [error] 6#6: *2 FastCGI sent in stderr: "ener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /comunnes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:12:41 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\TableNotFoundException: "An exception occurred while executing 'SELECT r0_.id AS id_0, r0_.name AS name_1 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id':
+
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lablab-api.region' doesn't exist" at /var/www/app/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php line 42
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKe
+2020/07/19 03:12:41 [error] 6#6: *2 FastCGI sent in stderr: "ent\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:13:37 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedRespons
+2020/07/19 03:14:21 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedRespons
+2020/07/19 03:15:03 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response"
+2020/07/19 03:16:15 [error] 6#6: *12 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:16:24 [error] 6#6: *12 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:20:48 [error] 6#6: *16 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response
+2020/07/19 03:29:06 [error] 6#6: *19 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [critical] Uncaught PHP Exception Doctrine\ORM\Query\QueryException: "[Semantical Error] line 0, col 120 near '.communes co': Error: Identification Variable provinces used in join path expression but was not defined before." at /var/www/app/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryException.php line 65
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefa
+2020/07/19 03:29:06 [error] 6#6: *19 FastCGI sent in stderr: "nKernelException".
+
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:29:20 [error] 6#6: *19 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response
+2020/07/19 03:30:05 [error] 6#6: *24 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response
+2020/07/19 03:30:56 [error] 6#6: *24 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response
+2020/07/19 03:31:03 [error] 6#6: *24 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response
+2020/07/19 03:45:22 [error] 6#6: *29 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response
+2020/07/19 03:45:51 [error] 6#6: *29 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:46:00 [error] 6#6: *29 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:46:17 [error] 6#6: *29 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:46:55 [error] 7#7: *34 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:47:52 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes?region_id=1 HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:47:56 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes?region_id=2 HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:48:00 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes?region_id=3 HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:48:04 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes?region_id=3 HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:48:22 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes?region_id=3 HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:48:33 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes?region_id=3 HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:49:11 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:49:35 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:49:56 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:50:03 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:50:22 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:50:28 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:50:33 [error] 6#6: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:54:18 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:54:45 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:54:45 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: 2020-07-18T23:54:45-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:55:06 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 03:55:06 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: 2020-07-18T23:55:06-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:22:44 [error] 6#6: *58 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [critical] Uncaught PHP Exception TypeError: "Argument 1 passed to App\Repository\RegionRepository::findForApi() must be of the type integer or null, string given, called in /var/www/app/src/Controller/CommunesController.php on line 33" at /var/www/app/src/Repository/RegionRepository.php line 32
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+P
+2020/07/19 04:22:44 [error] 6#6: *58 FastCGI sent in stderr: "on".
+
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:22:44 [error] 6#6: *58 FastCGI sent in stderr: "PHP message: 2020-07-19T00:22:44-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Passing a non-string value as 2nd argument to "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, pass a string or null instead.
+PHP message: 2020-07-19T00:22:44-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead.
+PHP message: 2020-07-19T00:22:44-04:00 [critical] Uncaught Error: Argument 1 passed to App\Repository\RegionRepository::findForApi() must be of the type integer or null, string given, called in /var/www/app/src/Controller/CommunesController.php on line 33" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:22:58 [error] 6#6: *58 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response
+2020/07/19 04:40:21 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?
+
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\DBALException: "Unknown column type "Doctrine\DBAL\Types\StringType" requested. Any Doctrine type that you use has to be registered with \Doctrine\DBAL\Types\Type::addType(). You can get a list of all the known types with \Doctrine\DBAL\Types\Type::getTypesMap(). If this error occurs during database introspection then you might have forgotten to register all database types for a Doctrine Type. Use AbstractPlatform#registerDoctrineTypeMapping() or have your custom types implement Type#getMappedDatabaseTypes(). If the type name is empty you might have a problem w
+2020/07/19 04:40:21 [error] 6#6: *62 FastCGI sent in stderr: "tified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified even
+2020/07/19 04:40:55 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?
+
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\DBALException: "Unknown column type "Doctrine\DBAL\Types\StringType" requested. Any Doctrine type that you use has to be registered with \Doctrine\DBAL\Types\Type::addType(). You can get a list of all the known types with \Doctrine\DBAL\Types\Type::getTypesMap(). If this error occurs during database introspection then you might have forgotten to register all database types for a Doctrine Type. Use AbstractPlatform#registerDoctrineTypeMapping() or have your custom types implement Type#getMappedDatabaseTypes(). If the type name is empty you might have a problem w
+2020/07/19 04:40:55 [error] 6#6: *62 FastCGI sent in stderr: "tified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified even
+2020/07/19 04:41:37 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?
+
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\DBALException: "Unknown column type "Doctrine\DBAL\Types\StringType" requested. Any Doctrine type that you use has to be registered with \Doctrine\DBAL\Types\Type::addType(). You can get a list of all the known types with \Doctrine\DBAL\Types\Type::getTypesMap(). If this error occurs during database introspection then you might have forgotten to register all database types for a Doctrine Type. Use AbstractPlatform#registerDoctrineTypeMapping() or have your custom types implement Type#getMappedDatabaseTypes(). If the type name is empty you might have a problem w
+2020/07/19 04:41:37 [error] 6#6: *62 FastCGI sent in stderr: "tified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified even
+2020/07/19 04:41:51 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:41:51 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: 2020-07-19T00:41:51-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Passing a non-string value as 2nd argument to "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, pass a string or null instead.
+PHP message: 2020-07-19T00:41:51-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:42:43 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [critical] Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\ClassNotFoundError: "Attempted to load class "Types" from namespace "Doctrine\DBAL".
+Did you forget a "use" statement for "Doctrine\DBAL\Types\Types"?" at /var/www/app/src/Repository/RegionRepository.php line 40
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [d
+2020/07/19 04:42:43 [error] 6#6: *62 FastCGI sent in stderr: "age: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest"" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:42:43 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: 2020-07-19T00:42:43-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Passing a non-string value as 2nd argument to "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, pass a string or null instead.
+PHP message: 2020-07-19T00:42:43-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead.
+PHP message: 2020-07-19T00:42:43-04:00 [critical] Uncaught Error: Class 'Doctrine\DBAL\Types' not found" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:43:00 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:43:00 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: 2020-07-19T00:43:00-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Passing a non-string value as 2nd argument to "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, pass a string or null instead.
+PHP message: 2020-07-19T00:43:00-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:43:15 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:43:15 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: 2020-07-19T00:43:15-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Passing a non-string value as 2nd argument to "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, pass a string or null instead.
+PHP message: 2020-07-19T00:43:15-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:43:22 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:43:22 [error] 6#6: *62 FastCGI sent in stderr: "PHP message: 2020-07-19T00:43:22-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Passing a non-string value as 2nd argument to "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, pass a string or null instead.
+PHP message: 2020-07-19T00:43:22-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:44:34 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:44:39 [error] 7#7: *5 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:44:39 [error] 7#7: *5 FastCGI sent in stderr: "PHP message: 2020-07-19T00:44:39-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Passing a non-string value as 2nd argument to "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, pass a string or null instead.
+PHP message: 2020-07-19T00:44:39-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:45:09 [error] 7#7: *5 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:45:09 [error] 7#7: *5 FastCGI sent in stderr: "PHP message: 2020-07-19T00:45:09-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Passing a non-string value as 2nd argument to "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, pass a string or null instead.
+PHP message: 2020-07-19T00:45:09-04:00 [info] User Deprecated: Since symfony/http-foundation 5.1: Retrieving a non-string value from "Symfony\Component\HttpFoundation\InputBag::get()" is deprecated, and will throw a "Symfony\Component\HttpFoundation\Exception\BadRequestException" exception in Symfony 6.0, use "Symfony\Component\HttpFoundation\InputBag::all($key)" instead" while reading upstream, client: 172.22.0.1, server: localhost, request: "POST /communes HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2020/07/19 04:47:08 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?
+
+PHP message: [debug] SELECT p0_.id AS id_0, p0_.name AS name_1, c1_.id AS id_2, c1_.name AS name_3 FROM province p0_ INNER JOIN commune c1_ ON p0_.id = c1_.province_id WHERE p0_.name = ?
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onRespo
+2020/07/19 04:48:13 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?
+
+PHP message: [debug] SELECT p0_.id AS id_0, p0_.name AS name_1, c1_.id AS id_2, c1_.name AS name_3 FROM province p0_ INNER JOIN commune c1_ ON p0_.id = c1_.province_id WHERE p0_.name = ?
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onRespo
+2020/07/19 04:49:00 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.name AS name_0, p1_.name AS name_1, c2_.name AS name_2 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?
+
+PHP message: [debug] SELECT p0_.id AS id_0, p0_.name AS name_1, c1_.id AS id_2, c1_.name AS name_3 FROM province p0_ INNER JOIN commune c1_ ON p0_.id = c1_.province_id WHERE p0_.name = ?
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+PHP message: [debug] Notified event "kern
+2020/07/19 04:49:24 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: [info] Matched route "communes".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+PHP message: [debug] SELECT r0_.id AS id_0, r0_.name AS name_1, p1_.id AS id_2, p1_.name AS name_3, c2_.id AS id_4, c2_.name AS name_5 FROM region r0_ INNER JOIN province p1_ ON r0_.id = p1_.region_id INNER JOIN commune c2_ ON p1_.id = c2_.province_id WHERE r0_.name = ?
+
+PHP message: [debug] SELECT p0_.id AS id_0, p0_.name AS name_1, c1_.id AS id_2, c1_.name AS name_3 FROM province p0_ INNER JOIN commune c1_ ON p0_.id = c1_.province_id WHERE p0_.name = ?
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onRespo
