@@ -1,5 +1,6 @@
 # DOCKER
 docker/mysql/data/
+docker/nginx/log/
 
 # IDE
 .idea/
