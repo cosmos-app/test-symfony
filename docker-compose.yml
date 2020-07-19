@@ -1,0 +1,20 @@
+version: '3'
+services:
+    php:
+        container_name: lablab-php
+        build:
+            context: .
+            dockerfile: docker/php/Dockerfile
+        volumes:
+            - ./docker/php/php.ini:/usr/local/etc/php/php.ini
+            - .:/var/www/app:cached
+    mysql:
+        container_name: lablab-mysql
+        image: mysql:5.6
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: lablab-api
+        ports:
+            - 3306:3306
+        volumes:
+            - ./docker/mysql/data:/var/lib/mysql:rw
